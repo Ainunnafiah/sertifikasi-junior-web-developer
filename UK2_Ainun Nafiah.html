@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skenario 2</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+      integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+</head>
+
+<body>
+    <div class="container-custom">
+        <div class="title-section">
+            <div class="title">
+                <h1>NAMA PESERTA UJIAN</h1>
+            </div>
+        </div>
+        <div class="body">
+            <div class="menu">
+                <div class="menu-title">
+                    <h6>Menu:</h6>
+                </div>
+                
+                <div class="menu-list active">
+                    Olah Nilai
+                </div>
+                <div class="menu-list">
+                    Pengguna
+                </div>
+            </div>
+            <div class="content">
+                <div class="list-form">
+                    <div class="form-item">
+                        <div class="label">Nilai 1</div>
+                        <div class="label"> Text Area</div>
+                    </div>
+                    <div class="form-item">
+                        <div class="label">Nilai 2</div>
+                        <div class="label"> Text Area</div>
+                    </div>
+                    <div class="form-item">
+                        <div class="label">Nilai 3</div>
+                        <div class="label"> Text Area</div>
+                    </div>
+                    <div class="form-item">
+                        <div class="label">Nilai 4</div>
+                        <div class="label"> Text Area</div>
+                    </div>
+                </div>
+                <div>
+                  <button onclick="sortData()" type="button">Urutkan</button>
+                </div>
+                <textarea name="hasil" id="hasil" cols="30" rows="10">Tabel Hasil</textarea>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
